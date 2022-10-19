@@ -1,0 +1,92 @@
+.wrapper {
+position: relative;
+overflow: hidden;
+min-height: 100%;
+}
+
+.location__sky {
+width: 100%;
+height: 100%;
+position: fixed;
+background: rgb(180,218,230);
+background: linear-gradient(10deg, rgba(180,218,230,0.16850490196078427) 50%, rgba(0,212,255,1) 68%);
+}
+
+.location__sun {
+background-color: yellow;
+height: 150px;
+width: 150px;
+border-radius: 50%;
+position: fixed;
+top: 55px;
+right: 75px;
+}
+
+.location__grass{
+background-color: green;
+height: 60%;
+width: 100%;
+border-radius: 0 70% 0 0;
+position: fixed;
+bottom: 0;
+}
+
+.location__road{
+background-color: grey;
+height: 150px;
+width: 100%;
+position: fixed;
+bottom: 20px;
+}
+
+.road-mark__top{
+background-color: white;
+height: 5px;
+width: 100%;
+position: relative;
+top: 5px;
+}
+
+.road-mark__center{
+background-color: white;
+height: 5px;
+width: 100%;
+position: relative;
+top: 72px;
+}
+
+.road-mark__bottom{
+background-color: white;
+height: 5px;
+width: 100%;
+position: relative;
+top: 130px;
+}
+
+.car__body img {
+width: 700px;
+position: fixed;
+bottom: -120px;
+left: 250px;
+}
+
+.car__wheels img {
+width: 700px;
+position: fixed;
+bottom: -120px;
+left: 250px;
+}
+
+.car__glass img {
+width: 700px;
+position: fixed;
+bottom: -120px;
+left: 250px;
+}
+
+.car__headlights img {
+width: 700px;
+position: fixed;
+bottom: -120px;
+left: 250px;
+}
